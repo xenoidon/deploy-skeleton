@@ -1,0 +1,17 @@
+dev-svr:
+    host: 127.0.0.1
+    port: 22
+    user: dev
+    forward_agent: ~
+    stage: dev
+    deploy_path: /var/www/apps/test
+    branch: 3.x
+    app:
+        debug: true
+        domain: test-app.dev
+        mysql:
+            host: 127.0.0.1
+            port: 3306
+            username: root
+            password: ""
+            dbname: "test"

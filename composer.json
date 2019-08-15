@@ -1,0 +1,25 @@
+{
+  "name": "xenoidon/deploy-skeleton",
+  "type": "application",
+  "description": "Sleleton project for deployment (Symfony) by Deployer",
+  "keyworks": ["Deployer", "deployment", "deploy", "symfony"],
+  "license": "MIT",
+  "homepage": "https://github.com/xenoidon/deploy-skeleton",
+  "support": {
+    "issues": "https://github.com/oanhnn/deployer-example/issues",
+    "source": "https://github.com/xenoidon/deploy-skeleton/issues"
+  },
+  "authors": [
+    {
+      "name": "xenoidon",
+      "homepage": "https://github.com/xenoidon"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "require-dev": {
+    "deployer/deployer": "^6.4.6"
+  }
+}
